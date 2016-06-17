@@ -77,6 +77,37 @@ html, body {
   font-family: verdana;
 }
 
+.social {
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+
+#socialBorder {
+  color: #FFFFFF
+}
+
+#facebook {
+  color: #3b5998;
+}
+
+#twitter {
+  color: #55acee;
+}
+
+#youtube {
+  color: #bb0000;
+}
+
+#instagram {
+  color: #e95950;
+}
+
+#wordpress {
+  color: #21759b;;
+}
+
 @media (max-width: 1024px) {
   #header {
     display: none;
