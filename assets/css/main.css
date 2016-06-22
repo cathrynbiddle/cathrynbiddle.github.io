@@ -79,13 +79,9 @@ html, body {
 
 .social {
   list-style-type: none;
-  position: absolute;
-  top: 50%;
+  position: fixed;
+  top: 35%;
   right: 0%;
-}
-
-.social li i {
-  border: 1px solid white;
 }
 
 #facebook {
