@@ -8,15 +8,12 @@ html, body {
   overflow-x: hidden;
 }
 
-.fixedHeader {
-  position: fixed;
-}
-
-.header {
+#header {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
   z-index: 5;
-  padding-left: 25%;;
+  padding-left: 25%;
+  display: none;
 }
 
 .header-logo {
@@ -25,7 +22,7 @@ html, body {
   max-width: 25%;
   margin-top: 1%;
   position: fixed;
-  z-index: 7;
+  z-index: 99;
 }
 
 .navbar {
@@ -33,9 +30,10 @@ html, body {
   padding-right: 5%;
   margin-left: -2%;
   width: 105%;
-  z-index: 5;
+  z-index: 98;
   font-family: cambria;
   border: none;
+  position: fixed;
 }
 
 #menuToggle {
@@ -141,5 +139,6 @@ html, body {
 @media (max-width: 1024px) {
   #header {
     display: none;
+    text-align: right;
   }
 }
