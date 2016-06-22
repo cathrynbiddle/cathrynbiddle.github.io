@@ -84,8 +84,8 @@ html, body {
   right: 0%;
 }
 
-#socialBorder {
-  color: #FFFFFF
+.social li i {
+  border: 1px solid white;
 }
 
 #facebook {
