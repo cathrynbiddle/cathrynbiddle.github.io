@@ -23,6 +23,7 @@ html, body {
   left: 0;
   position: fixed;
   z-index: 99;
+  width: 32%;
 }
 
 .navbar {
@@ -37,13 +38,14 @@ html, body {
 }
 
 .dropdown-toggle {
-  margin-top: 10%;
+  
   font-size: 16px;
   font-weight: bold;
+  margin-top: 16px;
 }
 
 #carousel-example-generic {
-  margin: 5% 0%;
+  margin: 12% 0%;
 }
 
 #ctabutton {
@@ -53,9 +55,9 @@ html, body {
   background-color: red;
   width: 20%;
   position: relative;
-  padding: 0.5%;
-  box-shadow: 0px 0px 20px 1px black inset;
-  border-radius: 5px;
+  
+  box-shadow: 5px 0px 20px 5px black inset;
+  border-radius: 10px;
 }
 
 #ctabutton a {
