@@ -1,3 +1,6 @@
 $(document).ready(function() {
-    //logic here
+    $(".clickMe").css("cursor", "pointer");
+    $(".toggleInfo").click(function(){
+        $(this).children("p").toggle();
+    });
 });
