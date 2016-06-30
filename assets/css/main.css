@@ -1,211 +1,211 @@
-                                                            html,
-                                                        body {
-                                                            background-color: black;
-                                                            background-image: url(https://scontent.ford1-1.fna.fbcdn.net/hphotos-xtp1/t31.0-8/12829461_10153442631315777_6923973237197672207_o.jpg);
-                                                            background-size: cover;
-                                                            background-attachment: fixed;
-                                                            min-height: 100%;
-                                                            width: 100%;
-                                                            overflow-x: hidden;
-                                                            font-size: 14px;
-                                                        }
-                                                        
-                                                        #header {
-                                                            background-color: rgba(0, 0, 0, 0.8);
-                                                            color: white;
-                                                            z-index: 5;
-                                                            padding-left: 25%;
-                                                            display: none;
-                                                        }
-                                                        
-                                                        .header-logo {
-                                                            border-radius: 2%;
-                                                            max-height: 25%;
-                                                            max-width: 25%;
-                                                            height: auto;
-                                                            width: auto;
-                                                            top: 15px;
-                                                            left: 0;
-                                                            position: fixed;
-                                                            z-index: 99;
-                                                            margin-left: 5%;
-                                                        }
-                                                        
-                                                        .navbar {
-                                                            padding-left: 5%;
-                                                            padding-right: 5%;
-                                                            margin-left: -2%;
-                                                            width: 105%;
-                                                            z-index: 98;
-                                                            font-family: cambria;
-                                                            border: none;
-                                                            height: 100px;
-                                                        }
-                                                        
-                                                        .dropdown-toggle {
-                                                            font-size: 16px;
-                                                            font-weight: bold;
-                                                            margin-top: 25px;
-                                                        }
-                                                        
-                                                        #carousel-example-generic {
-                                                            margin-top: 20%;
-                                                            clear: left;
-                                                        }
-                                                        
-                                                        .carousel-inner img {
-                                                            width: 50%;
-                                                        }
-                                                        
-                                                        #ctabutton {
-                                                            margin: auto;
-                                                            text-align: center;
-                                                            background-color: red;
-                                                            width: 40%;
-                                                            margin-top: 40px;
-                                                            position: relative;
-                                                            border-radius: 10px;
-                                                            box-shadow: 0px 10px 0px 0px darkslategray;
-                                                        }
-                                                        
-                                                        #ctabutton a {
-                                                            color: black;
-                                                            font-family: times;
-                                                            font-weight: bold;
-                                                            display: inline-block;
-                                                            text-decoration: none;
-                                                            padding: 0%;
-                                                            font-size: 2vw;
-                                                        }
-                                                        
-                                                        #ctabutton:hover {
-                                                            transition: 1s;
-                                                            letter-spacing: 1px;
-                                                            background-color: white;
-                                                            color: red;
-                                                        }
-                                                        
-                                                        #ctabutton a:hover {
-                                                            transition: 0.1s;
-                                                            color: red;
-                                                            font-family: times;
-                                                        }
-                                                        
-                                                        .disclaimer {
-                                                            text-align: center;
-                                                            margin-top: 10px;
-                                                            font-size: 16px;
-                                                        }
-                                                        /*social media bar */
-                                                        
-                                                        .social {
-                                                            list-style-type: none;
-                                                            position: fixed;
-                                                            top: 35%;
-                                                            right: 0%;
-                                                            padding: .5% .25%;
-                                                            background-color: rgba(0, 0, 0, 0.6);
-                                                            border-radius: 5px;
-                                                        }
-                                                        
-                                                        .social li {
-                                                            padding: 3%;
-                                                        }
-                                                        
-                                                        .facebook {
-                                                            color: #3b5998;
-                                                        }
-                                                        
-                                                        .twitter {
-                                                            color: #55acee;
-                                                        }
-                                                        
-                                                        .youtube {
-                                                            color: #bb0000;
-                                                        }
-                                                        
-                                                        .insta {
-                                                            color: #e95950;
-                                                        }
-                                                        
-                                                        .wordpress {
-                                                            color: #21759b;
-                                                        }
-                                                        
-                                                        .socialBorder {
-                                                            color: rgba(255, 255, 255, 0.6);
-                                                        }
-                                                        
-                                                        .socialLogo {
-                                                            top: -2px;
-                                                        }
-                                                        
-                                                        .socialLogo:hover {
-                                                            background-color: white;
-                                                            border-radius: 5px;
-                                                        }
-                                                        
-                                                        .main {
-                                                            margin-right: 10%;
-                                                            margin-left: 10%;
-                                                            margin-top: 5%;
-                                                            text-align: center;
-                                                            color: rgba(0, 0, 0, 0.6);
-                                                            background-color: rgba(255, 255, 255, 0.6);
-                                                            border-radius: 5px;
-                                                            font-family: calibri;
-                                                            font-size: 20px;
-                                                            padding: 2%;
-                                                        }
-                                                        
-                                                        #topmargin {
-                                                            margin-top: 200px;
-                                                        }
-                                                        
-                                                        #footer {
-                                                            color: white;
-                                                            background-color: black;
-                                                            border-style: solid;
-                                                            border-color: white;
-                                                            border-left: none;
-                                                            border-right: none;
-                                                            font-size: 15px;
-                                                            text-align: center;
-                                                            width: 105%;
-                                                            bottom: 0;
-                                                            left: 0;
-                                                            margin-top: 5%;
-                                                            margin-left: -15px;
-                                                            padding-left: -5%;
-                                                            padding-right: 5%;
-                                                        }
-                                                        
-                                                        #footer div {
-                                                            display: inline-block;
-                                                            padding: 1vw;
-                                                        }
-                                                        
-                                                        .left {
-                                                            float: left;
-                                                            margin-left: 1vw;
-                                                            padding-top: 1vw;
-                                                        }
-                                                        
-                                                        .right {
-                                                            float: right;
-                                                            margin-right: 1vw;
-                                                            padding-top: 1vw;
-                                                        }
-                                                        
-                                                        .mission {
-                                                            width: 40vw;
-                                                        }
-                                                        
-                                                        @media (max-width: 1024px) {
-                                                            #header {
-                                                                display: none;
-                                                                text-align: right;
-                                                            }
-                                                            .mission p {
-                                                                display: none;
-                                                            }
+                                                                        html,
+                                                                    body {
+                                                                        background-color: black;
+                                                                        background-image: url(https://scontent.ford1-1.fna.fbcdn.net/hphotos-xtp1/t31.0-8/12829461_10153442631315777_6923973237197672207_o.jpg);
+                                                                        background-size: cover;
+                                                                        background-attachment: fixed;
+                                                                        min-height: 100%;
+                                                                        width: 100%;
+                                                                        overflow-x: hidden;
+                                                                        font-size: 14px;
+                                                                    }
+                                                                    
+                                                                    #header {
+                                                                        background-color: rgba(0, 0, 0, 0.8);
+                                                                        color: white;
+                                                                        z-index: 5;
+                                                                        padding-left: 25%;
+                                                                        display: none;
+                                                                    }
+                                                                    
+                                                                    .header-logo {
+                                                                        border-radius: 2%;
+                                                                        max-height: 25%;
+                                                                        max-width: 25%;
+                                                                        height: auto;
+                                                                        width: auto;
+                                                                        top: 15px;
+                                                                        left: 0;
+                                                                        position: fixed;
+                                                                        z-index: 99;
+                                                                        margin-left: 5%;
+                                                                    }
+                                                                    
+                                                                    .navbar {
+                                                                        padding-left: 5%;
+                                                                        padding-right: 5%;
+                                                                        margin-left: -2%;
+                                                                        width: 105%;
+                                                                        z-index: 98;
+                                                                        font-family: cambria;
+                                                                        border: none;
+                                                                        height: 100px;
+                                                                    }
+                                                                    
+                                                                    .dropdown-toggle {
+                                                                        font-size: 16px;
+                                                                        font-weight: bold;
+                                                                        margin-top: 25px;
+                                                                    }
+                                                                    
+                                                                    #carousel-example-generic {
+                                                                        margin-top: 20%;
+                                                                        clear: left;
+                                                                    }
+                                                                    
+                                                                    .carousel-inner img {
+                                                                        width: 50%;
+                                                                    }
+                                                                    
+                                                                    #ctabutton {
+                                                                        margin: auto;
+                                                                        text-align: center;
+                                                                        background-color: red;
+                                                                        width: 40%;
+                                                                        margin-top: 40px;
+                                                                        position: relative;
+                                                                        border-radius: 10px;
+                                                                        box-shadow: 0px 10px 0px 0px darkslategray;
+                                                                    }
+                                                                    
+                                                                    #ctabutton a {
+                                                                        color: black;
+                                                                        font-family: times;
+                                                                        font-weight: bold;
+                                                                        display: inline-block;
+                                                                        text-decoration: none;
+                                                                        padding: 0%;
+                                                                        font-size: 2vw;
+                                                                    }
+                                                                    
+                                                                    #ctabutton:hover {
+                                                                        transition: 1s;
+                                                                        letter-spacing: 1px;
+                                                                        background-color: white;
+                                                                        color: red;
+                                                                    }
+                                                                    
+                                                                    #ctabutton a:hover {
+                                                                        transition: 0.1s;
+                                                                        color: red;
+                                                                        font-family: times;
+                                                                    }
+                                                                    
+                                                                    .disclaimer {
+                                                                        text-align: center;
+                                                                        margin-top: 10px;
+                                                                        font-size: 16px;
+                                                                    }
+                                                                    /*social media bar */
+                                                                    
+                                                                    .social {
+                                                                        list-style-type: none;
+                                                                        position: fixed;
+                                                                        top: 35%;
+                                                                        right: 0%;
+                                                                        padding: .5% .25%;
+                                                                        background-color: rgba(0, 0, 0, 0.6);
+                                                                        border-radius: 5px;
+                                                                    }
+                                                                    
+                                                                    .social li {
+                                                                        padding: 3%;
+                                                                    }
+                                                                    
+                                                                    .facebook {
+                                                                        color: #3b5998;
+                                                                    }
+                                                                    
+                                                                    .twitter {
+                                                                        color: #55acee;
+                                                                    }
+                                                                    
+                                                                    .youtube {
+                                                                        color: #bb0000;
+                                                                    }
+                                                                    
+                                                                    .insta {
+                                                                        color: #e95950;
+                                                                    }
+                                                                    
+                                                                    .wordpress {
+                                                                        color: #21759b;
+                                                                    }
+                                                                    
+                                                                    .socialBorder {
+                                                                        color: rgba(255, 255, 255, 0.6);
+                                                                    }
+                                                                    
+                                                                    .socialLogo {
+                                                                        top: -2px;
+                                                                    }
+                                                                    
+                                                                    .socialLogo:hover {
+                                                                        background-color: white;
+                                                                        border-radius: 5px;
+                                                                    }
+                                                                    
+                                                                    .main {
+                                                                        margin-right: 10%;
+                                                                        margin-left: 10%;
+                                                                        margin-top: 5%;
+                                                                        text-align: center;
+                                                                        color: black;
+                                                                        background-color: rgba(255, 255, 255, 0.8);
+                                                                        border-radius: 5px;
+                                                                        font-family: verdana;
+                                                                        font-size: 20px;
+                                                                        padding: 2%;
+                                                                    }
+                                                                    
+                                                                    #topmargin {
+                                                                        margin-top: 200px;
+                                                                    }
+                                                                    
+                                                                    #footer {
+                                                                        color: white;
+                                                                        background-color: black;
+                                                                        border-style: solid;
+                                                                        border-color: white;
+                                                                        border-left: none;
+                                                                        border-right: none;
+                                                                        font-size: 15px;
+                                                                        text-align: center;
+                                                                        width: 105%;
+                                                                        bottom: 0;
+                                                                        left: 0;
+                                                                        margin-top: 5%;
+                                                                        margin-left: -15px;
+                                                                        padding-left: -5%;
+                                                                        padding-right: 5%;
+                                                                    }
+                                                                    
+                                                                    #footer div {
+                                                                        display: inline-block;
+                                                                        padding: 1vw;
+                                                                    }
+                                                                    
+                                                                    .left {
+                                                                        float: left;
+                                                                        margin-left: 1vw;
+                                                                        padding-top: 1vw;
+                                                                    }
+                                                                    
+                                                                    .right {
+                                                                        float: right;
+                                                                        margin-right: 1vw;
+                                                                        padding-top: 1vw;
+                                                                    }
+                                                                    
+                                                                    .mission {
+                                                                        width: 40vw;
+                                                                    }
+                                                                    
+                                                                    @media (max-width: 1024px) {
+                                                                        #header {
+                                                                            display: none;
+                                                                            text-align: right;
+                                                                        }
+                                                                        .mission p {
+                                                                            display: none;
+                                                                        }
