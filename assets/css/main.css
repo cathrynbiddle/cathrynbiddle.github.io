@@ -144,6 +144,7 @@ body {
 }
 
 .main {
+<<<<<<< HEAD
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 5%;
@@ -161,4 +162,59 @@ body {
         display: none;
         text-align: right;
     }
+=======
+  margin: 10%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+}
+
+
+#footer {
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#footer div {
+  display: inline-block;
+  padding: 1vw;
+}
+
+.left {
+  float: left;
+  margin-left: 1vw;
+  padding-top: 1vw;
+}
+
+.right {
+  float: right;
+  margin-right: 1vw;
+  padding-top: 1vw;
+}
+
+.mission {
+  width: 40vw;
+}
+
+@media (max-width: 1024px) {
+  #header {
+    display: none;
+    text-align: right;
+  }
+
+  .mission p {
+    display: none;
+  }
+>>>>>>> f3a3a09... Added footer
 }
