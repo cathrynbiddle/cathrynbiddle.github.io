@@ -7,7 +7,7 @@ body {
     min-height: 110%;
     width: 100%;
     overflow-x: hidden;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #header {
@@ -44,6 +44,11 @@ body {
     font-size: 16px;
     font-weight: bold;
     margin-top: 25px;
+    display: block !important;
+}
+
+.dropdown-toggle a:visited {
+    background-color: blue;
 }
 
 .index-banner {
@@ -75,6 +80,10 @@ body {
     height: 5vw;
     width: 77.5%;
     border-radius: 2px;
+}
+
+.carousel-caption p {
+    padding-bottom: 1%;
 }
 
 #ctabutton {
@@ -199,7 +208,7 @@ body {
 .toggleInfo {
     width: 100%;
     text-align: left;
-    position: relative;
+    /*position: relative;*/
     margin: auto;
     border-radius: 5px;
 }
@@ -220,30 +229,29 @@ b {
 .toggleInfo img {
     width: 40%;
     border-radius: 8px;
-    padding: 5%;
+    padding: -5%;
+    margin: -5% 5%;
 }
 
-.alignRight {
+
+/*.alignRight {
     font-weight: bold;
     border-radius: 0px 5px 5px 0px;
 }
 
 .alignLeft {
     border-radius: 5px 0px 0px 5px;
-}
-
-.clickMe img {
-    text-align: left;
-}
+}*/
 
 .clickMe {
+    display: inline-block;
     background-color: dimgray;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-right: 20%;
-    padding-left: 1%;
+    padding: 1%;
+    margin: 7%;
     color: antiquewhite;
     font-size: 2vw;
+    border-radius: 5px;
+    text-align: left;
 }
 
 #topmargin {
@@ -308,6 +316,7 @@ b {
         margin: auto;
         margin-top: 30%;
         width: 90%;
+        padding-top: 1%;
     }
     .carousel-inner img {
         width: 100%;
@@ -315,6 +324,9 @@ b {
     .carousel-caption {
         width: 100%;
         font-size: 4vw;
+    }
+    .carousel-caption p {
+        margin-top: -2%;
     }
     #ctabutton {
         width: auto;
@@ -340,7 +352,7 @@ b {
         margin-top: 5%;
     }
     .social {
-        display: block;
+        display: none;
         top: auto;
         bottom: 0%;
         width: 100%;
@@ -368,8 +380,12 @@ b {
         background-color: black;
         overflow: scroll;
     }
+    .dropdown-menu {
+        margin: 0;
+    }
     .dropdown-menu li {
-        background-color: black;
+        background-color: white;
+        color: black;
     }
     #topmargin {
         margin-top: 100px;
@@ -377,6 +393,13 @@ b {
 }
 
 @media (max-width: 750px) {
+    .index-banner {
+        margin-top: 35%;
+    }
+    .carousel-caption {
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
     .clickMe {
         font-size: 3vw;
     }
