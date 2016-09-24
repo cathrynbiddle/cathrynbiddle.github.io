@@ -207,9 +207,8 @@ body {
 
 .toggleInfo {
     width: 100%;
-    text-align: left;
+    text-align: center;
     /*position: relative;*/
-    margin: auto;
     border-radius: 5px;
 }
 
@@ -218,7 +217,6 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     margin-bottom: 0;
     text-align: left;
-    padding-left: 5%;
 }
 
 b {
@@ -226,8 +224,14 @@ b {
     color: blue;
 }
 
+.faqTitle {
+    font-size: 200%;
+    color: blue;
+    font-weight: bold;
+}
+
 .toggleInfo img {
-    width: 40%;
+    width: 35%;
     border-radius: 8px;
     padding: -5%;
     margin: -5% 5%;
@@ -252,6 +256,7 @@ b {
     font-size: 2vw;
     border-radius: 5px;
     text-align: left;
+    width: 80%;
 }
 
 #topmargin {
@@ -296,6 +301,11 @@ b {
 
 .mission {
     width: 40vw;
+}
+
+.surveySays {
+    margin: 15%;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
