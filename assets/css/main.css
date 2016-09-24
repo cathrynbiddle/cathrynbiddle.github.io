@@ -380,4 +380,8 @@ b {
     .clickMe {
         font-size: 3vw;
     }
+    .social li {
+        left: 8%;
+        right: 0;
+    }
 }
