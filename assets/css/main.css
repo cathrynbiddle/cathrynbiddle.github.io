@@ -237,6 +237,12 @@ b {
     margin: -5% 5%;
 }
 
+.imageNormal {
+    width: 45%;
+    padding: 3px;
+    margin: auto;
+}
+
 
 /*.alignRight {
     font-weight: bold;
@@ -253,7 +259,7 @@ b {
     padding: 1%;
     margin: 7%;
     color: antiquewhite;
-    font-size: 2vw;
+    font-size: 1.65vw;
     border-radius: 5px;
     text-align: left;
     width: 80%;
